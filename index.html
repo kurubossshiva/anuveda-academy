@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#123b70">
+  <meta name="description" content="Anuveda Academy — free learning resources for students in Classes 1–12.">
+  <title>Anuveda Academy | Free Learning</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icons/icon-192.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#" aria-label="Anuveda Academy home">
+      <span class="brand-mark">A</span>
+      <span><strong>Anuveda Academy</strong><small>Knowledge · Concept · Success</small></span>
+    </a>
+    <button id="installBtn" class="install-btn" hidden>Install app</button>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <span class="eyebrow">LEARN WITHOUT LIMITS</span>
+        <h1>Your learning journey<br><em>starts here.</em></h1>
+        <p>Find your class, explore subjects and access official NCERT textbooks — free for every learner.</p>
+        <a class="primary-btn" href="#classes">Explore classes <span>→</span></a>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="book-stack"><span>📘</span><span>📗</span><span>📙</span></div>
+        <div class="spark spark-a">✦</div><div class="spark spark-b">✧</div>
+      </div>
+    </section>
+
+    <section class="quick-stats" aria-label="Platform information">
+      <div><strong>12</strong><span>Classes</span></div>
+      <div><strong>Free</strong><span>Access</span></div>
+      <div><strong>Anytime</strong><span>Learn at your pace</span></div>
+    </section>
+
+    <section id="classes" class="section">
+      <div class="section-heading">
+        <div><span class="eyebrow">CHOOSE YOUR LEVEL</span><h2>Explore by class</h2></div>
+        <p>Select your class to see the subjects and open the official NCERT textbook portal.</p>
+      </div>
+      <div id="classGrid" class="class-grid"></div>
+    </section>
+
+    <section class="resource-section">
+      <div class="resource-copy">
+        <span class="eyebrow">OFFICIAL LEARNING MATERIAL</span>
+        <h2>NCERT textbooks,<br>from the official source.</h2>
+        <p>Use the official NCERT textbook portal to find and download the latest available books. Anuveda Academy links to NCERT rather than rehosting copyrighted textbook PDFs.</p>
+        <a class="primary-btn" href="https://ncert.nic.in/textbook.php" target="_blank" rel="noopener">Open NCERT portal ↗</a>
+      </div>
+      <div class="resource-card">
+        <div class="resource-icon">📚</div>
+        <h3>Official NCERT resources</h3>
+        <ol>
+          <li>Choose your class on this page.</li>
+          <li>Check the subjects listed.</li>
+          <li>Open the NCERT portal.</li>
+          <li>Select class, subject and book title to download.</li>
+        </ol>
+        <a class="text-link" href="https://epathshala.nic.in/" target="_blank" rel="noopener">Explore ePathshala →</a>
+      </div>
+    </section>
+
+    <section class="notice">
+      <span>ⓘ</span>
+      <p><strong>Content note:</strong> NCERT textbooks remain the property of NCERT. This app provides links to official sources. Add only your own original notes and materials, or content for which you have permission to distribute.</p>
+    </section>
+  </main>
+
+  <footer>
+    <a class="brand footer-brand" href="#"><span class="brand-mark">A</span><strong>Anuveda Academy</strong></a>
+    <p>Knowledge · Concept · Success</p>
+    <div class="footer-links">
+      <a href="https://ncert.nic.in/" target="_blank" rel="noopener">NCERT</a>
+      <a href="https://epathshala.nic.in/" target="_blank" rel="noopener">ePathshala</a>
+    </div>
+    <small>© <span id="year"></span> Anuveda Academy. Independent educational project; not affiliated with NCERT.</small>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
