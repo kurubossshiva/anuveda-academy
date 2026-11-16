@@ -22,7 +22,7 @@ FREE PUBLISHING USING GITHUB PAGES
 5. Set repository visibility to Public. Create repository.
 6. In the repository, choose Add file > Upload files.
 7. Upload the CONTENTS of this folder (index.html, styles.css, app.js,
-   manifest.webmanifest, service-worker.js, icons folder and this README).
+   manifest.webmanifest, service-worker.js, icons folder, images folder and this README).
    Do not upload the outer ZIP.
 8. Click Commit changes.
 9. Open repository Settings > Pages.
@@ -57,3 +57,12 @@ FREE TOOLS
 - Hosting: GitHub Pages.
 - PWA: included in this project.
 - No paid database or server is required for this first version.
+
+
+LOGO UPDATE (VERSION 2)
+- The supplied Anuveda Academy logo is now used in the website header and footer.
+- The Android/PWA home-screen icons have also been generated from your logo.
+- Upload/replace all files from this updated ZIP in the existing GitHub repository.
+- The service-worker cache version has been updated to v2.
+- After deployment, refresh the website with Ctrl + Shift + R. If the old logo remains
+  on Android, close and reopen the installed app; if needed, remove and reinstall it.
